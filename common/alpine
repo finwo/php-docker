@@ -2,8 +2,6 @@ FROM alpine:edge
 
 ENV TERM=ansi
 
-WORKDIR /app
-
 RUN echo "" > /etc/apk/repositories
 RUN echo "http://dl-cdn.alpinelinux.org/alpine/edge/main"      >> /etc/apk/repositories
 RUN echo "http://dl-cdn.alpinelinux.org/alpine/edge/community" >> /etc/apk/repositories
