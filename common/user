@@ -1,0 +1,5 @@
+# User to run as
+# www-data should normally be 82
+# for development environments with mounts 1000 was chosen instead
+RUN addgroup -S -g 1000 www-data
+RUN adduser -SD -u 1000 -G www-data www-data

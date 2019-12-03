@@ -1,0 +1,4 @@
+# Copy configs
+COPY config/php.ini      /usr/local/etc/php/conf.d/10-defaults.ini
+COPY config/php-fpm.conf /usr/local/etc/php-fpm.conf
+COPY config/php-fpm.d    /usr/local/etc/php-fpm.d

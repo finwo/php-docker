@@ -1,0 +1,3 @@
+# Install phpvm
+RUN curl -sL https://finwo.github.io/phpvm/install.sh | bash /dev/stdin --prefix /usr
+RUN mkdir -p /var/log/php
